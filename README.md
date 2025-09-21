@@ -17,3 +17,12 @@ R code for drug-specific EEG biomarkers study
 
 ## Contact
 lorenzo.ricci@ucalgary.ca
+
+# Note on Data Preprocessing
+Raw EEG and clinical data preprocessing scripts are not included due to:
+- Dataset-specific file paths and variable extraction procedures
+- Privacy considerations
+- Institution-specific data formats
+
+This repository focuses on the core statistical and machine learning 
+methodology that can be adapted to similar datasets.
