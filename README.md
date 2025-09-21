@@ -1,10 +1,8 @@
 # PERSEFO-EEG-Biomarkers
 R code for drug-specific EEG biomarkers study
 
-# PERSEFO: Drug-specific EEG biomarkers for ASM selection
-
 ## Citation
-[Sarà aggiornato quando pubblicato]
+[to be updated]
 
 ## Requirements
 - R version 4.3.2+
@@ -24,5 +22,39 @@ Raw EEG and clinical data preprocessing scripts are not included due to:
 - Privacy considerations
 - Institution-specific data formats
 
+
+
 This repository focuses on the core statistical and machine learning 
 methodology that can be adapted to similar datasets.
+
+# Repository Structure
+
+R/power_analysis.R - Statistical power calculations
+R/multicollinearity_vif.R - VIF analysis for variable selection
+R/cross_validation.R - 5-fold CV Bayesian modeling
+R/statistical_comparisons.R - DeLong tests for AUC comparisons
+R/sensitivity_analysis.R - Bayesian prior sensitivity testing
+
+
+# Usage
+
+Install required packages
+Load your data 
+Adapt variable names in scripts to match your dataset
+Run analysis scripts as needed
+
+
+### Required Packages
+```r
+install.packages(c(
+  "rstanarm",      # Bayesian modeling
+  "bayestestR",    # Bayesian inference
+  "car",           # VIF calculations
+  "pROC",          # ROC analysis
+  "caret",         # Cross-validation
+  "dplyr",         # Data manipulation
+  "knitr",         # Table formatting
+  "writexl"        # Excel export
+))
+
+
