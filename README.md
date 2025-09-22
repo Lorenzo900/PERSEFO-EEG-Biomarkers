@@ -1,5 +1,6 @@
-# PERSEFO-EEG-Biomarkers
-R code for drug-specific EEG biomarkers study
+# Drug-Specific EEG Biomarkers for Anti-Seizure Medication Selection in Focal Epilepsy: A Bayesian Precision Medicine Approach.
+
+R code for Bayesian Analysis
 
 ## Citation
 [to be updated]
