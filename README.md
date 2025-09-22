@@ -20,20 +20,17 @@ lorenzo.ricci@ucalgary.ca
 Raw EEG and clinical data preprocessing scripts are not included due to:
 - Dataset-specific file paths and variable extraction procedures
 - Privacy considerations
-- Institution-specific data formats
-
-
 
 This repository focuses on the core statistical and machine learning 
 methodology that can be adapted to similar datasets.
 
 # Repository Structure
 
-R/power_analysis.R - Statistical power calculations
-R/multicollinearity_vif.R - VIF analysis for variable selection
-R/cross_validation.R - 5-fold CV Bayesian modeling
-R/statistical_comparisons.R - DeLong tests for AUC comparisons
-R/sensitivity_analysis.R - Bayesian prior sensitivity testing
+R/power_analysis.R - Statistical power calculations - 01
+R/multicollinearity_vif.R - VIF analysis for variable selection - 02
+R/cross_validation.R - 5-fold CV Bayesian modeling - 03
+R/statistical_comparisons.R - DeLong tests for AUC comparisons - 04
+R/sensitivity_analysis.R - Bayesian prior sensitivity testing - 05
 
 
 # Usage
