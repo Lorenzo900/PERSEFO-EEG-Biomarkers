@@ -29,13 +29,13 @@ prior_scenarios <- list(
   "Weakly_Informative" = list(
     name = "Weakly Informative (σ=2.5)",
     coef_prior = normal(0, 2.5),      # Medium effects expected
-    intercept_prior = normal(0, 2.5),
+    intercept_prior = normal(0, 5),
     description = "Weakly informative priors allowing moderate effects"
   ),
   "Non_Informative" = list(
     name = "Non-Informative (σ=5)",
     coef_prior = normal(0, 5),        # No expectations
-    intercept_prior = normal(0, 5),
+    intercept_prior = normal(0, 10),
     description = "Non-informative priors with minimal constraints"
   )
 )
